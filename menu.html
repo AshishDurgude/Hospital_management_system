@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+  <head>  
+  	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+			<title>
+			Hospital Management System
+			</title>
+  
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<!-- Fonts -->
+	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/themes/smoothness/jquery-ui.css" />
+    <style>
+	body{
+	text-align:center;
+	background:url('menuback2.jpg');
+	}
+	.header {
+	  background-color: rgba(255, 255, 255, 0.1);
+	  
+	}
+	.header h1{
+	color:#ffffff;
+	font-size:50px;
+	}
+	.well{
+		background:url('wellack1.png');
+		border:0px;
+	}
+	.well h2{
+	color:#FFFFA3;
+	font-family: Lato, Helvetica, Arial, sans-serif;
+	font-size:32px;
+	}
+	.well p{
+	color:#ffffff;
+	font-size:20px;
+	}
+	blockquote
+	{
+	color:#ffffff;
+	}
+	.supporting img {
+		height: 80px;
+}
+	.supporting  {
+		background-color:#ffffff;
+}
+
+	</style>
+	
+	
+  </head>
+
+  <body>
+  
+	<div class="header">
+<span class="title"><h1>Hospital Management System</h1></span>
+	</div>
+	<div class="menu">
+		<div class="col-md-2">
+						<div class="supporting">
+							
+									  <img src="admin.png">
+									  <h2>XYZ</h2>
+									  <p>(Admin)</p>
+						</div>
+		
+		</div>
+			<div class="col-md-8">
+				
+					<div class="well">
+							<h2>Select The Operations:</h2>
+							<p>Want to create a new Entry?</p>
+								<a href="create.jsp"><button class="btn btn-lg btn-primary " href="create.jsp">Click Here</button></a>
+							<hr>
+							<p>Want to Update Existing Entry?</p>
+							<a  href="update.jsp"><button class="btn btn-lg btn-warning">Click Here</button></a>
+							<hr>
+							<p>Want to Display Entry?</p>
+								<a href="display.html"><button class="btn btn-lg btn-danger">Click Here</button></a>
+							<hr>
+							<p>Want to Delete a Entry?</p>
+								<a  href="delete.jsp"><button class="btn btn-lg btn-info">Click Here</button></a>
+					</div>
+				
+			</div>
+		<div class="col-md-2">
+		<blockquote>Want to Logout??
+	<form action="myhsptl.html" method="post">
+		<input type="submit" class="btn btn-md btn-success" value="Log Out">
+	</form>
+		</blockquote>
+		</div>
+	</div>
+  
+  </body>
+  </html>

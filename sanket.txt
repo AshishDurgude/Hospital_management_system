@@ -1,0 +1,16 @@
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
+	<script>
+	$(document).ready(function () {
+		$('body').backstretch([
+			"hospitalback1.jpg",
+			"hospitalback2.jpg",
+			"hospitalback3.jpg"
+			], {
+				duration: 3000,
+				fade: 750
+			});
+
+		/*toastr.success('Registrations for eYRC-2015 have started! Last date to register your team is August 31st!', 'Registrations Started!');
+		toastr.options.closeButton = true;*/
+	});
+</script>
